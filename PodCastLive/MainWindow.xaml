@@ -10,6 +10,7 @@
         <Frame x:Name="_mainFrame" />
     </DockPanel>-->
     <Grid Background="#5aad72">
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="400" />

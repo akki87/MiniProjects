@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PodCastLive.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace PodCastLive
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,17 +29,20 @@ namespace PodCastLive
 
         private void AdminLogin_Click(object sender, RoutedEventArgs e)
         {
-            _mainFrame.Navigate(new AdminLogin());
+            AdminLogin adminLogin = new AdminLogin("AdminLogin");
+            this.Content = adminLogin;
         }
 
         private void UserLogin_Click(object sender, RoutedEventArgs e)
         {
-            _mainFrame.Navigate(new UserLogin());
+            AdminLogin adminLogin = new AdminLogin("UserLogin");
+            this.Content = adminLogin;
         }
 
         private void AgentLogin_Click(object sender, RoutedEventArgs e)
         {
-            _mainFrame.Navigate(new AgentLogin());
+            AdminLogin adminLogin = new AdminLogin("AgentLogin");
+            this.Content = adminLogin;
         }
     }
 }

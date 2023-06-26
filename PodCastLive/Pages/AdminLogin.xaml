@@ -12,7 +12,7 @@
         <TextBlock Grid.Row="0" Grid.Column="0"  Height="20" RenderTransformOrigin="0.464,-0.9" Margin="142,24,141,214" Foreground="BlanchedAlmond" FontSize="18" FontWeight="ExtraBold" >LOGIN</TextBlock>
         <TextBox x:Name="UserID" Grid.Row="0" Grid.Column="0" Text="xxxxx00000" Height="20" RenderTransformOrigin="0.464,-0.9" Margin="95,78,91,152" Foreground="Gray"/>
         <TextBlock Grid.Row="0" Grid.Column="0"  Height="20" RenderTransformOrigin="0.464,-0.9" Margin="96,109,173,129" Foreground="White" FontSize="12">Password</TextBlock>
-        <TextBox x:Name="UserPassWord" Grid.Row="0" Grid.Column="0" Text="********" Height="20" RenderTransformOrigin="0.464,-0.9" Margin="95,125,91,105" Foreground="Gray"/>
+        <TextBox x:Name="UserPassWord" Grid.Row="0" Grid.Column="0" Text="********" Height="20" RenderTransformOrigin="0.464,-0.9" Margin="95,125,91,105" Foreground="Gray" />
         <Button Height="20" RenderTransformOrigin="0.464,-0.9" Margin="95,172,91,58" Background="Green" Foreground="White" Content="LOGIN" ></Button>
     </Grid>
 </Page>

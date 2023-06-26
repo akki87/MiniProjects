@@ -24,5 +24,35 @@ namespace PodCastLive.Pages
         {
             InitializeComponent();
         }
+        public AdminLogin(string value)
+        {
+            InitializeComponent();
+            dataBinding(value);
+        }
+         public void dataBinding(string idValue)
+        {
+            if(idValue != null)
+            {
+                switch(idValue)
+                {
+                    case "AdminLogin":
+                        this.UserID.Text = "40*******";
+                        break;
+                    case "UserLogin":
+                        this.UserID.Text = "14503*********";
+                        break;
+                    case "AgentLogin":
+                        this.UserID.Text = "00000000";
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+
+        private void UserID_GotFocus(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
