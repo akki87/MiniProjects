@@ -10,30 +10,29 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PodCastLive.Pages
+namespace PodCastLive.Windows
 {
     /// <summary>
-    /// Interaction logic for AdminLogin.xaml
+    /// Interaction logic for Login.xaml
     /// </summary>
-    public partial class AdminLogin : Page
+    public partial class Login : Window
     {
-        public AdminLogin()
+        public Login()
         {
             InitializeComponent();
         }
-        public AdminLogin(string value)
+        public Login(string value)
         {
             InitializeComponent();
             dataBinding(value);
         }
-         public void dataBinding(string idValue)
+        public void dataBinding(string idValue)
         {
-            if(idValue != null)
+            if (idValue != null)
             {
-                switch(idValue)
+                switch (idValue)
                 {
                     case "AdminLogin":
                         this.UserID.Text = "40*******";

@@ -5,10 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PodCastLive"
         mc:Ignorable="d"
-        Title="WPay app" Height="450" Width="800">
-    <!--<DockPanel>
-        <Frame x:Name="_mainFrame" />
-    </DockPanel>-->
+        Title="WPay app" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid Background="#5aad72">
         
         <Grid.ColumnDefinitions>

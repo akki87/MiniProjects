@@ -1,18 +1,5 @@
-﻿using PodCastLive.Pages;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PodCastLive.Windows;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace PodCastLive
 {
@@ -29,20 +16,20 @@ namespace PodCastLive
 
         private void AdminLogin_Click(object sender, RoutedEventArgs e)
         {
-            AdminLogin adminLogin = new AdminLogin("AdminLogin");
-            this.Content = adminLogin;
+            Login adminLogin = new Login("AdminLogin");
+            adminLogin.Show();
         }
 
         private void UserLogin_Click(object sender, RoutedEventArgs e)
         {
-            AdminLogin adminLogin = new AdminLogin("UserLogin");
-            this.Content = adminLogin;
+            Login adminLogin = new Login("UserLogin");
+            adminLogin.Show();
         }
 
         private void AgentLogin_Click(object sender, RoutedEventArgs e)
         {
-            AdminLogin adminLogin = new AdminLogin("AgentLogin");
-            this.Content = adminLogin;
+            Login adminLogin = new Login("AgentLogin");
+            adminLogin.Show();
         }
     }
 }

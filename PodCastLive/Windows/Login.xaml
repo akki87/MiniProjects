@@ -1,0 +1,18 @@
+﻿<Window x:Class="PodCastLive.Windows.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PodCastLive.Windows"
+        mc:Ignorable="d"
+        WindowStyle="None" 
+        Title="" Height="323" Width="361" ShowInTaskbar="False" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="Indigo">
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="" Height="20" RenderTransformOrigin="0.464,-0.9" Margin="97,63,172,159" Foreground="White" FontSize="12">User Id</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="0"  Height="20" RenderTransformOrigin="0.464,-0.9" Margin="142,21,141,201" Foreground="BlanchedAlmond" FontSize="18" FontWeight="ExtraBold" >LOGIN</TextBlock>
+        <TextBox x:Name="UserID" Grid.Row="0" Grid.Column="0" Text="xxxxx00000" Height="20" RenderTransformOrigin="0.464,-0.9" Margin="96,83,90,139" Foreground="Gray"/>
+        <TextBlock Grid.Row="0" Grid.Column="0"  Height="20" RenderTransformOrigin="0.464,-0.9" Margin="95,109,174,113" Foreground="White" FontSize="12">Password</TextBlock>
+        <TextBox x:Name="UserPassWord" Grid.Row="0" Grid.Column="0" Text="********" Height="20" RenderTransformOrigin="0.464,-0.9" Margin="96,129,90,93" Foreground="Gray" />
+        <Button Height="20" RenderTransformOrigin="0.464,-0.9" Margin="96,170,90,52" Background="Green" Foreground="White" Content="LOGIN" ></Button>
+    </Grid>
+</Window>
